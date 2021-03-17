@@ -1,1 +1,0 @@
-# ai-fall-exercices
