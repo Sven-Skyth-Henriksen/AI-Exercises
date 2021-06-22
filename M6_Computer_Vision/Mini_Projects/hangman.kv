@@ -1,0 +1,56 @@
+BoxLayout:
+
+	orientation: 'vertical'
+
+	MDToolbar:
+		title:'Hangman'
+		md_bg_color: (31/255, 31/255, 31/255, 1)
+		specific_text_color: (134/255, 5/255, 209/255, 1)
+		elevation:10
+		right_action_items:[['run', lambda x:x]]
+	
+	MDBottomNavigation:
+		#Color
+		panel_color: (31/255, 31/255, 31/255, 1)
+
+		#Main Page HOME
+		MDBottomNavigationItem:
+			name: 'Home'
+			text:'Home'
+			icon: 'home'
+			
+			FloatLayout:
+				canvas.before:
+					Rectangle:
+						size: self.size
+						pos: self.pos
+						source: 'Hangman.jpg'
+				size: root.width, root.height
+				
+		
+		MDBottomNavigationItem:
+			name: 'Play'
+			text:'Play'
+			icon: 'play'
+			
+			FloatLayout:
+				canvas.before:
+					Rectangle:
+						size: self.size
+						pos: self.pos
+						source: 'Hangman.jpg'
+				size: root.width, root.height
+
+		
+		MDBottomNavigationItem:
+			name: 'About'
+			text:'About'
+			icon: 'clipboard-text'
+			
+			FloatLayout:
+				canvas.before:
+					Rectangle:
+						size: self.size
+						pos: self.pos
+						source: 'Hangman.jpg'
+				size: root.width, root.height
