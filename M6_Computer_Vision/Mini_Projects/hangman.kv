@@ -24,8 +24,29 @@ BoxLayout:
 					Rectangle:
 						size: self.size
 						pos: self.pos
-						source: 'Hangman.jpg'
+						source: 'about.jpg'
 				size: root.width, root.height
+
+
+				MDLabel:
+					text:'Hangman'
+					pos_hint: {'y':.3}
+					halign: 'center'
+					font_style: 'H1'
+					italic: True
+					color: (1,1,1, 1)
+					#outline_color: (0,0,1)
+					#outline_width: 2
+				MDLabel:
+					text:'Made by: Sven Skyth Henriksen, Mark Skinner, Joshua Batt, Olatunde Salami, Daniel Biman and Madina Zhenisbek'
+					pos_hint: {'y':-0.4}
+					halign:'center'
+					font_style: 'Overline'
+					color: (1,1,1,1)
+					
+				
+					
+
 				
 		
 		MDBottomNavigationItem:
@@ -38,8 +59,13 @@ BoxLayout:
 					Rectangle:
 						size: self.size
 						pos: self.pos
-						source: 'Hangman.jpg'
+						source: 'about.jpg'
 				size: root.width, root.height
+
+				FitImage:
+					source: 'wasted_final.jpg'
+					#pos_hint: {'x':0 ,'y':-0.3}
+				
 
 		
 		MDBottomNavigationItem:
@@ -52,5 +78,24 @@ BoxLayout:
 					Rectangle:
 						size: self.size
 						pos: self.pos
-						source: 'Hangman.jpg'
+						source: 'about.jpg'
 				size: root.width, root.height
+
+				MDLabel:
+					text:'About'
+					pos_hint: {'y':.3}
+					halign: 'center'
+					font_style: 'H4'
+					italic: True
+					color: (1,1,1,1)
+					outline_color: (0,0,0)
+					outline_width: 2
+				
+				MDLabel:
+					text:'This a hangman game created be Strive School Students. We used sign language reconigtion, Opencv and basic Python to create this application.'
+					pos_hint: {'y':-0.1}
+					halign: 'center'
+					font_style: 'Body1'
+					color: (1,1,1,1)
+					
+				
