@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+
+body {
+	margin:0;
+	font-family: 'Big Shoulders Stencil';
+	padding-top: 55px;
+}
+
+#Tit{
+	text-align: center;
+	color: blueviolet;
+	
+}
+
+#footer{
+	text-align: center;
+	background-color: black;
+	color: aliceblue;
+}
+
+.Link{
+	color:brown
+}
+
+.Skills{
+	border: 12px cornflowerblue solid;
+	font-size: 2em;
+	font-weight: bold;
+	width: 600px;
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+p {
+	margin: 10px;
+}
+
+.Secret{
+	visibility: hidden;
+}
+
+.Navigator{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 3em;
+	margin:0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
+
+.Navigator p {
+	margin: 0
+}
+
+.Contact{
+	font-size: 20px;
+	text-align: center;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+      }
+
+.Made_by{
+	font-style: italic;
+}
