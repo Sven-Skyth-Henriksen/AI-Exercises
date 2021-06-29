@@ -1,36 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
-.Mammejongen{
-	color: aliceblue;
+.navbar-brand{
+	color: black;
 	text-align: center;
-	padding-right: 30%;
-	font-size: 80px;
+	/*padding-right: 30%;*/
+	font-size: 2em;
 	font-family: 'Noto Serif JP', serif;
 	font-weight: bold;
 }
 
 .Foot{
 	text-align: center;
-	background-color: #404040;
-	color: aliceblue;
+	background-color: #FFFFFF;
+	color: black;
 	
 	
 }
 
 .Made_by{
 	font-style: italic;
-	color:aliceblue;
+	color: black;
 }
 
 .Subtitle{
-	color: aliceblue;
+	color: white;
 	font-size: 40px;
 	padding: 60px;
 	font-weight: bold;
 }
 
 .table {
-	color: aliceblue;
+	color: black;
 	border-radius: 1%;
 }
 
@@ -50,9 +50,15 @@
 }
 
 .lh-1{
-	color:white;
+	color:black;
 	font-size: 20px;
 	text-align: center;
 	font-family: 'Sarabun', sans-serif;
 	padding:20px;
+}
+
+.Buttons{
+	display: flex;
+	justify-content: space-evenly;
+	justify-self: auto;
 }
