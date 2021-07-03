@@ -1,9 +1,10 @@
 :root {
     --main-bg-color: #0e1117;
     --main-text-light: #fff;
-    --main-text-primary: #00f68f;
-    
+    --main-text-primary: #01e1ff;
+    --main-text-second: #00ff22;
 }
+
 
 .navbar svg{
     color:var(--main-text-primary);
@@ -14,7 +15,7 @@
     color:var(--main-text-light);
 }
 .btn-outline-success:hover{
-    background-color:var(--main-text-primary);
+    background-color:var(--main-text-second);
     color:var(--main-bg-color);
 }
 
@@ -115,11 +116,6 @@ h1{
     transition: 0.2s;
 }
 
-.card-body{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
 
 .card-header{
     text-align: center;
@@ -130,4 +126,17 @@ h1{
 
 th,td{
     color:var(--main-text-light);
+}
+
+#neon{
+    color: #fff;
+    text-shadow: 0 0 20px #00ff22;
+}
+#neon:after{
+    content: attr(data-text);
+    position: absolute;
+    background: greenyellow;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
 }

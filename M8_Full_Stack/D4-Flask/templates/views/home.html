@@ -1,5 +1,6 @@
 {% extends "/layouts/index.html"%} 
 
+{% from "/components/contact/index.html" import ContactComponent %}
 {% from "/components/jumbotron/jumbotron.html" import JumbotronComponent %}
 {% from "/components/about/index.html" import AboutComponent %}
 {% from "/components/projects/index.html" import ProjectsListingComponent %}
@@ -14,6 +15,7 @@
    <div class="container">
     {{AboutComponent()}}
     {{ProjectsListingComponent(MY_PROJECTS)}}
+    {{ContactComponent()}}
    </div>
 {% endblock %}
 

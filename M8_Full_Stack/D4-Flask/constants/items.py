@@ -1,4 +1,5 @@
-APP_NAME="Ubeyt Demir"
+APP_NAME="Sven Skyth Henriksen"
+
 
 SOCIAL_LINKS = [{
     "name":"LinkedIn",
@@ -29,29 +30,29 @@ SOCIAL_LINKS = [{
 
 MY_PROJECTS = [
     {
-        "title":"Project A",
-        "description":"Project A description",
-        "cover":"https://analyticsindiamag.com/wp-content/uploads/2021/04/aim_openCV.png",
-        "liveLink":"https://github.com",
-        "githubLink":"https://github.com"
+        "title":"Lane detection",
+        "description":"",
+        "cover":"https://user-images.githubusercontent.com/25371934/33930574-61018b38-dfbb-11e7-89bb-66bea1bbb021.gif",
+        "liveLink":"https://github.com/Voyage-Self-Drive/Voyage",
+        "githubLink":"https://github.com/Voyage-Self-Drive/Voyage"
     },
      {
-        "title":"Project B",
-        "description":"Project B description",
-        "cover":"http://placehold.it/300x300",
-        "liveLink":"https://github.com",
-        "githubLink":"https://github.com"
+        "title":"Sign Language Detection",
+        "description":"",
+        "cover":"https://techcrunch.com/wp-content/uploads/2019/08/handtracking_shot.png?w=730&crop=1",
+        "liveLink":"https://github.com/AInimaT1on/AInimaT1on",
+        "githubLink":"https://github.com/AInimaT1on/AInimaT1on"
     },
     {
-        "title":"Project C",
-        "description":"Project C description",
-        "cover":"http://placehold.it/300x300",
-        "liveLink":"https://github.com",
-        "githubLink":"https://github.com"
+        "title":"AI-Trainer",
+        "description":"",
+        "cover":"https://akvelon.com/wp-content/uploads/2019/01/AI-Fitness-App-featured-pic-e1547834190495-1024x482.jpg",
+        "liveLink":"https://github.com/Sven-Skyth-Henriksen",
+        "githubLink":"https://github.com/Sven-Skyth-Henriksen"
     }
 ]
 
-MENU_ITEMS= [{"label":"About","link":"#about"},{"label":"Projects","link":"#projects"},{"label":"Dashboard","link":"/dashboard"}]
+MENU_ITEMS= [{"label":"About","link":"#about"},{"label":"Projects","link":"#projects"},{"label":"Dashboard","link":"/dashboard"},{"label":"Contact","link":"#contact"}]
 
 
 DASHBOARD_MENU= [
