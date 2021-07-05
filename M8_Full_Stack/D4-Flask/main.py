@@ -12,7 +12,6 @@ APP_NAME="Sven Sktyh Henriksen"
 @app.route("/")
 def index():
     return render_template('/views/home.html',APP_NAME=APP_NAME,MENU_ITEMS=MENU_ITEMS,SOCIAL_LINKS=SOCIAL_LINKS,MY_PROJECTS=MY_PROJECTS)
- 
 
 
 @app.route("/dashboard")
