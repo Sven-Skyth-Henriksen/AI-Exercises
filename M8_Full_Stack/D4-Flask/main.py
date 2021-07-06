@@ -14,6 +14,7 @@ def index():
     return render_template('/views/home.html',APP_NAME=APP_NAME,MENU_ITEMS=MENU_ITEMS,SOCIAL_LINKS=SOCIAL_LINKS,MY_PROJECTS=MY_PROJECTS)
 
 
+
 @app.route("/dashboard")
 def dashboard():
     return  render_template("/views/dashboard/index.html",APP_NAME=APP_NAME,DASHBOARD_MENU=DASHBOARD_MENU)
